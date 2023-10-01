@@ -1,0 +1,162 @@
+/* Filename: style.css
+   Student: Kamrun Nahar
+   StudentId: 301342629
+   Date: Sep 29, 2023*/
+
+/* Improved Modern Styling */
+body {
+	font-family:16px  "Verdana, Geneva, Tahoma, sans-serif"  ;
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/bg.jpg");
+	background-size: cover;
+	color: #333;
+	line-height: 1.6;
+  }
+  
+  a {
+	color: #0066cc;
+	text-decoration: none;
+	transition: color 0.5s ease-in-out;
+  }
+  
+  a:hover {
+	color: #ff3366;
+  }
+  
+  footer {
+	background-color: #2c3e50;
+	color: #fff;
+	text-align: center;
+	padding: 0.1rem 0;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+  }
+  
+  #languageLogo,
+  #footerLogo {
+	font-size: 3rem;
+	text-align: center;
+	margin: 2rem 0;
+  }
+  
+  #aboutText,
+  #contactLogo {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 1.5rem;
+	color: rgb(44, 146, 44);
+	text-align: center;
+	margin: 2rem 0;
+  }
+  
+  .center, .center2 {
+	display: block;
+	margin: 2rem auto;
+	max-width: 80%;
+  }
+  
+  #textLarge {
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	font-size: 2.5rem;
+	font-weight: 700;
+	background-image: linear-gradient(to left, rgb(45, 4, 45), rgb(73, 32, 103), rgb(37, 37, 205), rgb(17, 86, 17), rgb(135, 135, 16), orange, red);
+	-webkit-background-clip: text;
+	background-clip: text; /* Added the standard property */
+	color: transparent;
+	text-align: center;
+	margin: 2rem 0;
+  }
+  
+  
+  
+  div {
+	background-color: #ecf0f1;
+	padding: 1rem;
+	margin-bottom: 1rem;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+	max-width: 600px;
+	margin: 0 auto;
+  }
+  
+  #projects {
+	border: 1px solid #2980b9;
+	padding: 1rem;
+	margin: 2rem 0;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	text-align: center;
+  }
+  
+  label {
+	display: block;
+	margin-bottom: 0.5rem;
+  }
+  
+  fieldset {
+	background-color: #bdc3c7;
+	padding: 2rem;
+	margin: 2rem 0;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type='submit'],
+  input[type='reset'] {
+	background-color: rgb(118, 50, 181);
+	color: #fff;
+	border: none;
+	padding: 0.5rem 2rem;
+	margin: 1rem 0;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background 0.5s ease-in-out;
+  }
+  
+  input[type='submit']:hover,
+  input[type='reset']:hover {
+	background-color: #3498db;
+  }
+  
+
+  /* Navigation Styling */
+  nav {
+	position: fixed;
+	top: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent white */
+	padding: 1rem;
+	border-bottom-left-radius: 8px;
+	box-shadow: 0px 4px 2px -2px rgb(0, 0, 0);
+  }
+  
+  nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+  }
+  
+  nav ul li {
+	display: inline-block;
+	margin-left: 20px;
+  }
+  
+  nav ul li a {
+	text-decoration: none;
+	color: #2878c8;
+	font-weight: 600;
+	transition: color 0.4s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+	color: #ed1b04;
+  }
+  
+  .navbar-nav {
+    float: right !important;
+}
